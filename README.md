@@ -1,5 +1,4 @@
 # Leetcode-Blind-75-Problems-Solutions-in-Python
-# Leetcode Blind 75 Solutions
 
 Welcome to my repository! Here, you'll find my solutions to the well-known Leetcode Blind 75 problems. These problems are highly regarded in the tech industry and are essential for preparing for software-related job and internship interviews.
 
