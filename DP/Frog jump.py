@@ -1,3 +1,4 @@
+#https://leetcode.com/problems/jump-game/submissions/1384365384/
 #greedy
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
