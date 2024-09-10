@@ -10,4 +10,20 @@ class Solution:
             ans.append(node.val)
         ans=[]
         post(root)
-        return ans        
+        return ans       
+    # 2 stack   
+class Solution:
+    def postorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        stack1=[root]
+        stack2=[]
+        if root is None:
+            return stack2
+        while stack1:
+            temp=stack1.pop()
+            if temp.left:
+                stack1.append(temp.left)
+            if temp.right:
+                stack1.append(temp.right)
+            stack2.append(temp.val)
+        stack2.reverse()     
+        return stack2 
