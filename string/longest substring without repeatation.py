@@ -4,7 +4,6 @@ class Solution:
         i=0
         j=i
         mapp={}
-        count=0
         maxx=0
         while i<len(s) and j<len(s):
             if s[j] in mapp and mapp[s[j]]>=i:
